@@ -2,7 +2,6 @@
   "name": "pamthr",
   "version": "0.1.0",
   "private": true,
-  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -48,5 +47,8 @@
     "typescript": "5.1.6",
     "uploadthing": "^5.2.0",
     "zod": "^3.22.2"
+  },
+  "devDependencies": {
+    "encoding": "^0.1.13"
   }
 }
