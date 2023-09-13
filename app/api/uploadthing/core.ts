@@ -9,6 +9,7 @@ const f = createUploadthing();
 
 const getUser = async () => await currentUser();
 
+
 export const ourFileRouter = {
   // Define as many FileRoutes as you like, each with a unique routeSlug
   media: f({ image: { maxFileSize: "4MB", maxFileCount: 1 } })
